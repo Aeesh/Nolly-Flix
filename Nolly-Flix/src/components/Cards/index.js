@@ -8,7 +8,7 @@ import { useStyles } from './style';
 const Cards = (props) => {
   const classes = useStyles();
 
-  const { imgSrc, imgAlt, title, onClick } = props;
+  const { imgSrc, imgAlt, title, onClick, count } = props;
   return (
     <Grid container className={classes.cardCon} xs={12} md={4} lg={3}>
       <Grid item xs={12} className={classes.imgCon}>
@@ -16,6 +16,7 @@ const Cards = (props) => {
       </Grid>
       <Grid item xs={12}>
         <Grid item className={classes.textCon}>
+          <Typography className={classes.count}> {count} </Typography>
           <Button onClick={onClick}> like </Button>
           <Typography className={classes.text}> {title} </Typography>
         </Grid>

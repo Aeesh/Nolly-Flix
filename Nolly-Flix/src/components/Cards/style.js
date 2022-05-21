@@ -18,5 +18,10 @@ export const useStyles = makeStyles({
   },
   text: {
     alignSelf: 'center'
+  },
+  count: {
+    color: 'green',
+    padding: '0.5rem 1rem',
+    alignSelf: 'center'
   }
 });

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
@@ -17,16 +17,21 @@ import { useStyles } from './style';
 const Home = () => {
   const classes = useStyles();
 
+  const [countOne, setCountOne] = useState(0);
+  const [countTwo, setCountTwo] = useState(0);
+  const [countThree, setCountThree] = useState(0);
+  const [countFour, setCountFour] = useState(0);
+  const [countFive, setCountFive] = useState(0);
+  const [countSix, setCountSix] = useState(0);
+
   return (
     <Grid container className={classes.con}>
-      {/* <Grid item xs={12}> */}
-        <Cards imgSrc={img1} title='The Redemption' />
-        <Cards imgSrc={img2} title='Africa’s Tech Roots' />
-        <Cards imgSrc={img3} title=' The Invisible Man' />
-        <Cards imgSrc={img4} title='The Complicated Project' />
-        <Cards imgSrc={img5} title='Simply Javascript' />
-        <Cards imgSrc={img6} title='The New Web' />
-      {/* </Grid> */}
+        <Cards imgSrc={img1} onClick={()=> {setCountOne(1 + countOne)}} count={countOne} title='The Redemption' />
+        <Cards imgSrc={img2} onClick={()=> {setCountTwo(1 + countTwo)}} count={countTwo} title='Africa’s Tech Roots' />
+        <Cards imgSrc={img3} onClick={()=> {setCountThree(1 + countThree)}} count={countThree} title=' The Invisible Man' />
+        <Cards imgSrc={img4} onClick={()=> {setCountFour(1 + countFour)}} count={countFour} title='The Complicated Project' />
+        <Cards imgSrc={img5} onClick={()=> {setCountFive(1 + countFive)}} count={countFive} title='Simply Javascript' />
+        <Cards imgSrc={img6} onClick={()=> {setCountSix(1 + countSix)}} count={countSix} title='The New Web' />
     </Grid>
   )
 }

@@ -17,11 +17,19 @@ export const useStyles = makeStyles({
     display: 'flex'
   },
   text: {
-    alignSelf: 'center'
+    alignSelf: 'center',
+    color: 'olive'
+  },
+  price: {
+    textAlign: 'center'
   },
   count: {
     color: 'green',
-    padding: '0.5rem 1rem',
+    padding: '0.5rem',
     alignSelf: 'center'
+  },
+  likeBtn: {
+    width: '2rem',
+    height: '2rem'
   }
 });

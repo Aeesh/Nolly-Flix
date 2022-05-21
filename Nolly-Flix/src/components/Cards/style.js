@@ -18,7 +18,8 @@ export const useStyles = makeStyles({
   },
   text: {
     alignSelf: 'center',
-    color: 'olive'
+    color: 'olive',
+    fontSize: '1.2rem !important'
   },
   price: {
     textAlign: 'center'

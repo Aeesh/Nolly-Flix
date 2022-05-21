@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Nolly-Flix/static/css/main.073c9b0a.css",
+    "main.js": "/Nolly-Flix/static/js/main.573c042d.js",
+    "static/js/787.6b2c0847.chunk.js": "/Nolly-Flix/static/js/787.6b2c0847.chunk.js",
+    "static/media/img3.jpg": "/Nolly-Flix/static/media/img3.2feac25526d3b6ed2c8b.jpg",
+    "static/media/img1.jpg": "/Nolly-Flix/static/media/img1.ab3bab769d4854c5745c.jpg",
+    "static/media/img2.jpg": "/Nolly-Flix/static/media/img2.4d33ecf2a139f429e2a2.jpg",
+    "static/media/like.jpg": "/Nolly-Flix/static/media/like.94a4efb9042b405e822a.jpg",
+    "static/media/logo.svg": "/Nolly-Flix/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Nolly-Flix/index.html",
+    "main.073c9b0a.css.map": "/Nolly-Flix/static/css/main.073c9b0a.css.map",
+    "main.573c042d.js.map": "/Nolly-Flix/static/js/main.573c042d.js.map",
+    "787.6b2c0847.chunk.js.map": "/Nolly-Flix/static/js/787.6b2c0847.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.573c042d.js"
+  ]
+}

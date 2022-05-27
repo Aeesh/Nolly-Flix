@@ -10,9 +10,9 @@ import { useStyles } from './style';
 const Cards = (props) => {
   const classes = useStyles();
 
-  const { imgSrc, imgAlt, title, onClick, count, price } = props;
+  const { imgSrc, imgAlt, title, onClick, count } = props;
   return (
-    <Grid container className={classes.cardCon} xs={12} md={4} lg={3}>
+    <Grid container item className={classes.cardCon} xs={12} sm={3}>
       <Grid item xs={12} className={classes.imgCon}>
         <img src={imgSrc} alt={imgAlt} className={classes.img} />
       </Grid>
